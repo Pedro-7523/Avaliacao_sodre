@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#label_funcionarios {
+    color: #333;
+    font-size: 54px;
+    margin-bottom: 25px;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 24px;
+    width: 165%;
+    height: 500px;
+    color: #333;
+    ;
+}
+
+tr,
+th,
+td {
+    border: 4px solid #ccc;
+}
+
+.btn {
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+    padding: 6px 8px 6px 6px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    color: #887d7d;
+}
+
+#cadastrar {
+    font-size: 28px;
+    margin-top: 30px;
+    padding: 8px;
+    background-color: #77a6ec;
+    border-radius: 7px;
+    transition: 0.5s;
+    width: 155px;
+    height: 52px;
+    color: #f4eded;
+
+}
+
+#cadastrar:hover {
+    background-color: #c2d3ec;
+    border-radius: 2px;
+}
+
+#deletar {
+    background-color: #f4a7a7;
+    border-radius: 5px;
+    width: 45%;
+    height: 75%;
+    transition: 0.5s;
+}
+
+#deletar:hover {
+    background-color: #f9c5c5;
+    border-radius: 2px;
+    color: #b1a5a5;
+}
+
+#editar {
+    background-color: #b6d7a8;
+    border-radius: 5px;
+    width: 45%;
+    height: 75%;
+    transition: 0.5s;
+}
+
+#editar:hover {
+    background-color: #d3eac5;
+    border-radius: 2px;
+    color: #b1a5a5;
+
+}
